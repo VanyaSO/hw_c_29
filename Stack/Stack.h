@@ -4,7 +4,7 @@
 
 class Stack : public List
 {
-    const int EMPTY = -1;
+    const int EMPTY = 0;
     int FULL = 10;
 
     int top;

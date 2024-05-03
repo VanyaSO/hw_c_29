@@ -29,7 +29,7 @@ int Stack::del()
 
 int Stack::getCount()
 {
-    return _length;
+    return top;
 }
 
 bool Stack::isEmpty()
