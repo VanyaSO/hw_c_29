@@ -118,8 +118,5 @@ int main()
     hamster.Type();
     dog.Sound();
 
-    Pet* pet = &cat;
-    pet->Type();
-
     return 0;
 }
