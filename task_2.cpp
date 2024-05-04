@@ -20,6 +20,7 @@ protected:
     Pet() = default;
     Pet(string name, string type, int age): _name(name), _type(type), _age(age) {};
 
+public:
     virtual void Sound() = 0;
     virtual void Show() = 0;
     virtual void Type() = 0;
@@ -116,6 +117,9 @@ int main()
     parrot.Sound();
     hamster.Type();
     dog.Sound();
+
+    Pet* pet = &cat;
+    pet->Type();
 
     return 0;
 }
